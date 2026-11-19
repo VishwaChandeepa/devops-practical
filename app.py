@@ -8,6 +8,6 @@ def home():
     return "Hello, DevOps World! We are LIVE on Render!"
 
 if __name__ == '__main__':
-    # Render දෙන port එක ගන්නවා, නැත්නම් 5000
+    
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
